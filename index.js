@@ -9,6 +9,7 @@ function takeANumber(queue){
 console.log(takeANumber(line))
 console.log(takeANumber(line))
 console.log(takeANumber(line))
+console.log(line)
 
 function currentLine(queue){
  var pos = []
