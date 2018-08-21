@@ -1,8 +1,8 @@
 let counter = 0
 let line = []
 function takeANumber(queue){
-  queue.push(counter)
   counter ++
+  queue.push(counter)
   return `Welcome. You are number ${counter}.`
 }
 
