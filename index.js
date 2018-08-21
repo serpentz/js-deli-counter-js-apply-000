@@ -1,6 +1,7 @@
-let counter = 0
+
 let line = []
 function takeANumber(queue){
+  let counter = 0
   counter ++
   queue.push(counter)
   return `Welcome. You are number ${counter}.`
